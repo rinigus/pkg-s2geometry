@@ -35,6 +35,8 @@ Summary: s2geometry development headers
 Group: Development/Libraries
 Requires: %{name} = %{version}
 Requires: openssl-devel
+Requires: pkgconfig(absl_algorithm)
+
 
 %description devel
 This package provides headers for development
